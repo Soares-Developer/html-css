@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir essas imagens em vários dispositivos ou aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+
+        <source media="(max-width: 750px )" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="foto-grande">
+
+    </picture>
+
+    <hr> 
+
+    <h1>Reproduzindo Àudio</h1>
+    
+    <p> ▶️Beyond - Patrick Patrikios</p>
+
+    <audio src="audio/Beyond - Patrick Patrikios.mp3" controls autoplay></audio>
+
+    <p> ▶️Simple - Patrick Patrikios</p>
+
+    <audio src="audio/Simple - Patrick Patrikios.mp3" controls autoplay></audio>
+
+    <p> ▶️Vishnu - Patrick Patrikios</p>
+
+    <audio src="audio/Vishnu - Patrick Patrikios.mp3" controls autoplay></audio>
+
+
+    <!--    <audio controls preload="metadata" loop>
+
+        <source src="audio/Beyond - Patrick Patrikios.mp3" type="audio/mpeg">
+        <source src="audio/Simple - Patrick Patrikios.ogg" type="audio/ogg">
+        <source src="audio/Vishnu - Patrick Patrikios.wav" type="audio/wav">
+
+    </audio>   -->
+
+</body>     
+</html>
